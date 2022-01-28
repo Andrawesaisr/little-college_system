@@ -17,7 +17,7 @@ void get_students_data(college_system data[], int  size);
 
 int main()
 {
-    college_system number[3];
+    college_system number[3];//by andrew
     set_students_data(number, 3);
     get_new_GPA(number, 3);
     set_student_id(number, 3);
