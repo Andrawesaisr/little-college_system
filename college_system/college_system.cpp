@@ -44,11 +44,11 @@ void set_students_data(college_system num[], int size) {
 
 void get_new_GPA(college_system newest[], int size) {
     for (long long i = 0; i < size; i++) {
-        cout << "enter the new GPA for "<<newest[i].student_name << endl;
+        cout << "enter the new GPA for " << newest[i].student_name << endl;
         cin >> newest[i].GPA_AfterYear;
     }
     for (long long i = 0; i < size; i++) {
-        cout << "the new GPA for student number " << i + 1 << " : ";
+        cout << "the new GPA for " << newest[i].student_name << " : ";
         cout << (newest[i].GPA_AfterYear += newest[i].GPA) / 2;
         cout << endl;
     }
@@ -63,7 +63,7 @@ void set_student_id(college_system id[], int size) {
     }
 }
 
-
+                                                        
 void get_students_data(college_system data[], int size) {
     cout << endl << endl << endl << "all the data : " << endl;
     for (long long i = 0; i < size; i++) {
